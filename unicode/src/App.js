@@ -40,7 +40,8 @@ const App = () => {
 const [searchQuery, setSearchQuery] = useState('');
   return (
     <>
-      <Navbar isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} searchQuery= {searchQuery} setSearchQuery={setSearchQuery}/>
+      <Navbar isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} 
+      searchQuery= {searchQuery} setSearchQuery={setSearchQuery}/>
 
       <Routes>
         {/* Home Page */}
